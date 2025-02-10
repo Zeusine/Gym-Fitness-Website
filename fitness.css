@@ -4,3 +4,653 @@
     font-optical-sizing: auto;
     font-style: normal;
   }
+
+.miama-secondary{
+    font-family: 'Miama', sans-serif;
+    font-weight: 100;
+    font-size: 10rem ;
+                                                
+}
+
+/* shared */
+:root{
+    --orange-color: rgba(230, 83, 60, 1);
+    --black-color: black;
+    --grey-color: rgba(255, 255, 255, 0.1);
+    --text-color: rgba(255, 255, 255, 0.5);
+}
+
+.display-flex{
+    display: flex;
+}
+
+.navigation, 
+.get-body,
+.change-habit,
+.run-extra-mile,
+.training-exercise,
+.bmi-top-container,
+.team,
+.footer-container,
+.horizontal-line{
+    max-width: 1060px;
+    margin: 0 auto;
+    align-items: center;
+}
+.background{
+    background-color: var(--black-color);
+    
+}
+
+.button{
+    background-color: var(--orange-color);
+    padding: 8px 20px;
+    border-radius: 46px;
+}
+.text-color-white{
+    color: white
+}
+.text-color-grey{
+    color: var(--text-color);
+}
+.hide{
+    display: none;
+}
+/* nav bar */
+.nav-left-title{
+    max-width: 520px;
+    height: 282px;
+    color: var(--orange-color);
+    font-size: 2.1rem;
+    font-weight: 2000;
+}
+
+.nav-right li{
+    list-style: none;
+    
+}
+
+.nav-right-list{
+    gap: 47px;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 400;
+    max-width: 465px;
+    align-items: center;
+    border: 2px solid var(--grey-color);
+    border-radius: 39px;
+    padding: 0px;
+    
+    
+    
+    
+}
+
+.navigation{
+    justify-content: space-between;
+    padding-top: 57px;
+    
+}
+
+
+#nav-about{
+    padding-right: 17px;
+}
+
+/* get-body */
+.header{
+    color: white;
+    background: linear-gradient(rgba(17, 17, 17, 1) 0%, rgba(119, 119, 119, 0.2) 50%, black 100%);
+}
+.get-body{
+    gap: 87px;
+}
+#get-body-title{
+    
+    font-size: 4.8rem;
+    margin-top: 96px;
+}
+
+#get-body-description{
+    color: var(--text-color);
+    font-size: 1rem;
+
+}
+.join-club-btn{
+    max-width: 224px;
+    max-height: 54px;
+    border-radius: 42px;
+    font-size: 1.1rem;
+    background-color: var(--orange-color);
+    padding: 16px 46px 10px 46px;
+    border: 0px solid black;
+    margin-right: 10px;
+    text-align: center;
+    
+
+}
+.join-club{
+    text-decoration: none;
+    color: white;
+}
+
+.download-btn{
+    max-width: 224px;
+    max-height: 54px;
+    border-radius: 42px;
+    font-size: 1.1rem;
+    background-color: black;
+    border: 2px solid white;
+    padding: 16px 46px 10px 46px;
+}
+
+/* 350+ video tutorial */
+.round{
+    background-color: var(--orange-color);
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.video-tutorial{
+    align-items: center;
+    gap: 15px;
+    max-width: 206px;
+    background-color: rgba(48, 48, 48, 0.54);
+    transform: translate(-100px,-200px);
+    border-radius: 12px;
+    backdrop-filter: blur(5px);
+
+}
+#margin{
+    margin-bottom: 5px;
+    font-size: 1.5rem;
+    
+}
+#video-tutorial-text{
+    margin-top: 5px;
+    color: rgba(239, 237, 232, 0.65);
+}
+.round{
+    margin-top: 10px;
+    margin-left: 25px;
+}
+.free-workout{
+    max-width: 193px;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.1);
+    transform: translate(250px, -550px);
+}
+#free-workout-title{
+    font-size: 2.2rem;
+    padding-top: 17px;
+    padding-left: 24px;
+    margin-bottom: 0px;
+}
+#free-workout-description{
+    color: rgba(255, 255, 255, 0.65);
+    backdrop-filter: blur(5px);
+    padding-left: 24px;
+    padding-right: 11px;
+    padding-bottom: 16px;
+    margin-top: 0px;
+}
+
+/* change habit */
+.change-habit-title{
+    font-size: 3rem;
+    margin-bottom: 14px;
+    text-align: center;
+}
+.change-habit-description{
+    font-size: 0.9rem;
+    margin-bottom: 58px;
+    text-align: center;
+}
+
+.change-habit-img{
+    border-radius: 50%;
+    border: 3px solid rgb(45, 44, 44);
+}
+.change-habit-all-img-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 40px;
+}
+.change-habit-img-title{
+    text-align: center;
+}
+.change-habit-img-description{
+    text-align: center;
+}
+.run-extra-mile-title{
+    font-size: 3rem;
+}
+.run-extra-mile-description{
+    font-size: .9rem;
+}
+.run-extra-mile{
+    background-color: rgba(34, 34, 34, 1);
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.run-extra-mile-text-container{
+    max-width: 443px;
+    padding: 40px 0px 41px 54px;
+}
+.run-extra-mile-img{
+    max-width: 366px;
+    padding: 30px 32px 30px 30px;
+    border-radius: 40px;
+}
+.training-exercise-description{
+    font-size: 0.9rem;
+    margin-bottom: 58px;
+}
+.training-exercise-title{
+    font-size: 3rem;
+    margin-bottom: 0px;
+}
+.training-exercise-img-container1{
+    display: grid;
+    grid-template-columns: 250px 520px 290px;
+    grid-template-rows: 201.5px;
+    
+}
+.training-exercise-img-container2{
+    display: grid;
+    grid-template-columns: 425px 288px 347px;
+    grid-template-rows: 201.5px;
+
+
+}
+.training-exercise-img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover; 
+    
+}
+
+
+/* 1st image */
+.image-container {
+    position: relative;
+  }
+  
+.background-color1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 255, 209, 0.5);  /* Background color visible through the image */
+  }
+  
+
+
+  /* 2nd image */
+
+.background-color2{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 0, 0, 0.3);
+  }
+  /* 3rd image */
+.background-color3{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(204, 204, 204, 0.3) ;
+  }
+.background-color4{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+.background-color5{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(66, 255, 0, 0.3);
+  }
+.background-color6{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 71, 255, 0.3);
+  }
+.bmi-description,
+.bmi-cal-form-description{
+    font-size: .9rem;
+  }
+
+.bmi-title{
+    font-size: 3rem;
+    margin-bottom: 14px;
+    font-weight: bolder;
+  }
+.bmi{
+    max-width: 671px;
+    padding-left: 194.5px;
+    margin-bottom: 88px;
+  }
+.bmi-calc-chart-title,
+.bmi-cal-form-title{
+    font-size: 1.8rem;
+    font-weight: bolder;
+    
+}
+.bmi-calc{
+    background-color: rgba(34, 34, 34, 1);
+    
+  }
+.bmi-top-container{
+    gap: 175px;
+    align-items: baseline;
+}
+.bmi-table, th, td{
+    border: 1px solid grey;
+    border-collapse: collapse;
+    
+  }
+th, td{
+    padding:15px 18px 17px 13px;
+    text-align: left;
+    width: 155px;
+
+    
+}
+.bmi-table{
+    margin-bottom: 133px;
+}
+th{
+    font-size: 1rem;
+    font-weight: 500;
+}
+td{
+    font-size: .9rem;
+}
+.bmi-form{
+    display: grid;
+    
+    grid-template-columns: repeat(4,141px) ;
+    grid-template-rows: repeat(3, 48px);
+    gap: 12px;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 34px;
+    
+}
+
+.form-item1,
+.form-item3,
+.form-item2,
+.form-item4{
+    grid-column: span 2;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 8px;
+    padding-left: 22px;
+    font-size: 1rem;
+   
+    
+}
+.form-item5{
+    grid-column: span 4;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 8px;
+    padding-left: 19px;
+    font-size: 1rem;
+
+    
+    
+}
+select{
+    color: rgba(163, 160, 160, 0.6); 
+   
+}
+/* team */
+.team-title{
+    font-size: 3rem;
+    font-weight: bolder;
+    margin-bottom: 14px;
+}
+.team-description{
+    font-size: 0.9rem ;
+    margin-bottom: 58px;
+}
+.team{
+    text-align: center;
+    margin-top: 88px;
+    
+}
+.team-img-container{
+    background-color: rgba(34, 34, 34, 1);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding: 20px;
+    border-radius: 18px;
+    
+}
+.team-img-container img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    border-radius: 18px;
+    opacity: 70%;
+    
+    
+}
+.team-img{
+    position: relative;
+    z-index: 1;
+    text-align: left;
+    transform: translate(10px,-100px);
+}
+.img-title{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+.img-description{
+    font-size: 0.9rem;
+    margin-top: 0px;
+    color: rgb(196, 186, 186);
+}
+
+footer{
+    background-color: rgba(34, 34, 34, 1);
+    margin-top: 88px;
+}
+.footer-container{
+    display: flex;
+    margin-bottom: 79px;
+    place-content: left;
+    
+
+}
+
+.horizontal-line{
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+}
+
+.fitness-description {
+    height: 176px;
+    margin-right: 102px;
+    font-size: 0.9rem;
+}
+
+.get-started1,.get-started2{
+    
+    text-wrap: nowrap;
+}
+.get-started1{
+    padding-right: 100px;
+}
+.get-started1 li, .get-started2 li{
+    list-style: none;
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+
+    
+}
+.get-started1 ul,
+.get-started2 ul{
+    padding: 0px;
+}
+.fitness-title{
+    font-size: 4.4rem;
+    height: 100px;
+}
+
+.get-started-title{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.reserved{
+    font-size: 1.3rem;
+    text-align: center;
+    padding-bottom: 35px;
+    font-weight: 200;
+}
+
+@media screen and (max-width: 576px) {
+    .navigation, 
+    .get-body,
+    .change-habit,
+    .run-extra-mile,
+    .training-exercise,
+    .bmi-top-container,
+    .fitness{
+        max-width: 353px;
+    }
+
+    
+    .nav-right-list{
+        display: none;
+
+    }
+    .hide{
+        display: contents;
+    }
+    .get-body{
+        flex-direction: column;
+
+    }
+    .get-body-title{
+        font-size: 1.2rem;
+    }
+    .get-body-right{
+        width: 100%;
+    }
+    .free-workout{
+        max-width: 145px;
+        transform: translate(200px, -600px);
+    }
+    #free-workout-title{
+        font-size: 1.8rem;
+    }
+    #free-workout-description{
+        font-size: .5rem;
+    }
+    .video-tutorial{
+        max-width: 155px;
+    }
+    #margin{
+        font-size: 1.1rem;
+    }
+    #video-tutorial-text{
+        font-size: 0.8rem;
+    }
+    .video-tutorial{
+        transform: translate(0px,-350px) ;
+    }
+    .nav-left-title{
+        padding-left: 20px;
+    }
+    .change-habit-all-img-container{
+        grid-template-columns: repeat(1,1fr);
+        margin: 0 auto;
+        
+    }
+    .change-habit-img-container{
+        place-items: center;
+    }
+    .button-container{
+        display: flex;
+
+    }
+    .join-club-btn{
+        padding-top: 8px ;
+    }
+    .download-btn{
+        padding-top: 8px;
+    }
+    .training-exercise-img-container1{
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+    .training-exercise-img-container2{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .run-extra-mile-title{
+        font-size: 2rem;
+        max-width: 287px;
+    }
+    .run-extra-mile{
+        flex-direction: column;
+    }
+    .run-extra-mile-description{
+        max-width: 287px;
+        font-size: 0.9rem;
+    }
+    .run-extra-mile-text-container{
+        padding: 0px;
+    }
+    .run-extra-mile-img{
+        width: 287px;
+    }
+    .bmi{
+        padding: 0px;
+    }
+    .bmi-top-container{
+        flex-direction: column;
+        gap: 0px;
+    }
+    .bmi-form{
+        grid-template-columns: repeat(4,75px) ;
+        grid-template-rows: repeat(3, 48px);
+    
+  
+    }
+    .bmi-calc-chart-title, .bmi-cal-form-title{
+        font-size: 1rem;
+    }
+    .margin-bot{
+        margin-bottom: 43px;
+    }
+    .team-img-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .footer-container{
+        flex-direction: column;
+        align-items:first baseline;
+        padding-left: 20px;
+    }
+    .fitness-title{
+        padding-left: 0px;
+        margin-bottom: 0px;
+    }
+    footer{
+        background-image: linear-gradient(rgba(34, 34, 34, 1)0%, black 100%);
+    }
+}
+
+
+
+
